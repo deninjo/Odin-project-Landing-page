@@ -24,15 +24,27 @@
 }
 .quote{
     background: #e5e7eb;
-    color: white;
+    color: black;
     height: 500px;
+   
 }
    
     
 .footer{
    
-    height: 500px;
+    height: 400px;
     
+}
+.end{
+    height: 100px;
+    background: #1F2937;
+    color: white; 
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    top: 40px;
 }
 .hlogo{
     background: #1F2937 ;
@@ -97,13 +109,33 @@ li a{
     display: inline-block;
 }
    
-
-    
-
 .button{
     padding: 10px 20px 10px 20px;
     
     border-radius: 20px;
     color: white;
     background: blue;
+}
+.prand{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.thor{
+    position: relative;
+    margin: auto;
+    width: 850px;
+    height: 400px;
+    padding: 100px;
+    top: 50px;
+    justify-content: center;
+}
+.big{
+    font-size: 31px;
+    font-style:italic
+      
+}
+.small{
+    float: right;
+    font-weight: bold;
 }

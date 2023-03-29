@@ -44,7 +44,8 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    top: 40px;
+    padding: 40px;
+
 }
 .hlogo{
     background: #1F2937 ;
@@ -103,9 +104,9 @@ li a{
     position: relative;
     margin: 0;
     padding: 120px;
-    margin: 100px 60px 100px 60px;
+    margin: 80px 60px 50px 20px;
     bottom: 20%;
-    left:10%;
+    left:20%;
     display: inline-block;
 }
    
@@ -119,7 +120,28 @@ li a{
 .prand{
     text-align: center;
     margin-top: 40px;
-    font-weight: bold;
+    font-weight:bolder;
+    font-size: 35px;
+}
+.boxes{
+    margin: 0px auto;
+    display:flex;
+    justify-content: center;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #0f6be3;
+    border-radius: 15px;
+    
+    margin:  30px;
+    padding: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    display: inline-block;
+}
+.txt{
+    margin-top: 150px;
 }
 .thor{
     position: relative;
@@ -138,4 +160,23 @@ li a{
 .small{
     float: right;
     font-weight: bold;
+}
+.enote{
+    background: #0f6be3;
+    color: white;
+    height:160px;
+    width:950px;
+    margin: 200px auto;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.ebutton{
+    color: white;
+    background: #0f6be3;
+    border-color: white;
+    border-radius: 5px;
+    float: right;
+    padding: 5px 10px;
+    width: 100px;
 }

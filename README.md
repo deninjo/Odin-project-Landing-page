@@ -1,2 +1,2 @@
 # Odin-project-Landing-page
-https://www.theodinproject.com/lessons/foundations-landing-page
+Project description: https://www.theodinproject.com/lessons/foundations-landing-page
